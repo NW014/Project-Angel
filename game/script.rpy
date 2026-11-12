@@ -22,6 +22,7 @@ image neil_test base = Transform("images/sprites/test/neil_test.png", zoom=0.56,
 image max_b office =  Transform("images/sprites/max/body/max-b-casual.png", zoom=0.56, crop=(0, 0, 1.0, 0.70))
 image max_h hair1 =  Transform("images/sprites/max/hair/max-h-hair1.png", zoom=0.56, crop=(0, 0, 1.0, 0.70))
 image max_f happy1 =  Transform("images/sprites/max/face/max-f-happy1.png", zoom=0.56, crop=(0, 0, 1.0, 0.70))
+image max_f baff1 = Transform("images/sprites/max/face/max-f-shock2.png", zoom=0.56, crop=(0, 0, 1.0, 0.70))
 
 image marty angy1 = Image("images/sprites/test/marty_mad_closed.png")
 image marty angy2 = Image("images/sprites/test/marty_mad_open.png")
@@ -141,4 +142,4 @@ label start:
     scene bg room
     with fade_to_black
 
-    jump testing
+    jump intro
