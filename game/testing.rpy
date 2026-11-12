@@ -44,6 +44,8 @@ label testing: #For animation tests
 
     $ renpy.pause(2.0)
 
+    jump intro
+
 
 
     
